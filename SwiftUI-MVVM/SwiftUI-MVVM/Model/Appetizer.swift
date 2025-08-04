@@ -33,4 +33,10 @@ struct MockData {
                                            calories: 450,
                                            carbs: 3,
                                            protein: 4)
+    static let articles: [String] = [
+        "SwiftUI Basics",
+        "Understanding @State and @Binding",
+        "Mastering EnvironmentObject",
+        "random object"
+    ]
 }
