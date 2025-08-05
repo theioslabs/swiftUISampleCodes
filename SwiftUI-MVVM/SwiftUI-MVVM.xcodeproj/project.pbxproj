@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010F27F52E3D470E00C89D63 /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F27F42E3D470E00C89D63 /* ArticleListView.swift */; };
+		010F27F72E3D4A8700C89D63 /* EnvironmentObjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F27F62E3D4A8700C89D63 /* EnvironmentObjectApp.swift */; };
+		010F27FA2E3D601D00C89D63 /* RandomNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F27F92E3D601D00C89D63 /* RandomNumberView.swift */; };
+		010F27FC2E3D609400C89D63 /* StateObjectVsObservedObjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F27FB2E3D609400C89D63 /* StateObjectVsObservedObjectApp.swift */; };
+		010F28002E3D702C00C89D63 /* DemoViewForNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F27FF2E3D702C00C89D63 /* DemoViewForNavigation.swift */; };
+		010F28022E3D708E00C89D63 /* DemoViewForNavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F28012E3D708E00C89D63 /* DemoViewForNavigationApp.swift */; };
+		010F28042E3D70D000C89D63 /* ProfileViewUsingStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F28032E3D70D000C89D63 /* ProfileViewUsingStacks.swift */; };
+		010F28072E3E05B700C89D63 /* FruitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F28062E3E05B700C89D63 /* FruitListView.swift */; };
+		010F280A2E3E05E500C89D63 /* StateBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F28092E3E05E500C89D63 /* StateBindingView.swift */; };
+		010F280C2E3E130400C89D63 /* ListsInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F280B2E3E130400C89D63 /* ListsInSwiftUIApp.swift */; };
 		01D4F5702E3A82ED00D26941 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D4F56F2E3A82ED00D26941 /* AppetizerDetailView.swift */; };
 		ED24F619265C242D00DD76F9 /* SwiftUI_MVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24F618265C242D00DD76F9 /* SwiftUI_MVVMApp.swift */; };
 		ED24F61D265C242D00DD76F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED24F61C265C242D00DD76F9 /* Assets.xcassets */; };
@@ -23,6 +33,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		010F27F42E3D470E00C89D63 /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
+		010F27F62E3D4A8700C89D63 /* EnvironmentObjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectApp.swift; sourceTree = "<group>"; };
+		010F27F92E3D601D00C89D63 /* RandomNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberView.swift; sourceTree = "<group>"; };
+		010F27FB2E3D609400C89D63 /* StateObjectVsObservedObjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectVsObservedObjectApp.swift; sourceTree = "<group>"; };
+		010F27FF2E3D702C00C89D63 /* DemoViewForNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewForNavigation.swift; sourceTree = "<group>"; };
+		010F28012E3D708E00C89D63 /* DemoViewForNavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewForNavigationApp.swift; sourceTree = "<group>"; };
+		010F28032E3D70D000C89D63 /* ProfileViewUsingStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewUsingStacks.swift; sourceTree = "<group>"; };
+		010F28062E3E05B700C89D63 /* FruitListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListView.swift; sourceTree = "<group>"; };
+		010F28092E3E05E500C89D63 /* StateBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBindingView.swift; sourceTree = "<group>"; };
+		010F280B2E3E130400C89D63 /* ListsInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsInSwiftUIApp.swift; sourceTree = "<group>"; };
 		01D4F56F2E3A82ED00D26941 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		ED24F615265C242D00DD76F9 /* SwiftUI-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED24F618265C242D00DD76F9 /* SwiftUI_MVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MVVMApp.swift; sourceTree = "<group>"; };
@@ -69,6 +89,77 @@
 			path = Enums;
 			sourceTree = "<group>";
 		};
+		010F27F12E3D467700C89D63 /* State Management */ = {
+			isa = PBXGroup;
+			children = (
+				010F28082E3E05DC00C89D63 /* StateBinding */,
+				010F27F82E3D600F00C89D63 /* StateObjectAndObservedObject */,
+				010F27F32E3D46E700C89D63 /* Environment Object */,
+			);
+			path = "State Management";
+			sourceTree = "<group>";
+		};
+		010F27F22E3D468A00C89D63 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ED24F618265C242D00DD76F9 /* SwiftUI_MVVMApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		010F27F32E3D46E700C89D63 /* Environment Object */ = {
+			isa = PBXGroup;
+			children = (
+				010F27F62E3D4A8700C89D63 /* EnvironmentObjectApp.swift */,
+				010F27F42E3D470E00C89D63 /* ArticleListView.swift */,
+			);
+			path = "Environment Object";
+			sourceTree = "<group>";
+		};
+		010F27F82E3D600F00C89D63 /* StateObjectAndObservedObject */ = {
+			isa = PBXGroup;
+			children = (
+				010F27FB2E3D609400C89D63 /* StateObjectVsObservedObjectApp.swift */,
+				010F27F92E3D601D00C89D63 /* RandomNumberView.swift */,
+			);
+			path = StateObjectAndObservedObject;
+			sourceTree = "<group>";
+		};
+		010F27FD2E3D701600C89D63 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				010F27FE2E3D702300C89D63 /* using path */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		010F27FE2E3D702300C89D63 /* using path */ = {
+			isa = PBXGroup;
+			children = (
+				010F28012E3D708E00C89D63 /* DemoViewForNavigationApp.swift */,
+				010F27FF2E3D702C00C89D63 /* DemoViewForNavigation.swift */,
+			);
+			path = "using path";
+			sourceTree = "<group>";
+		};
+		010F28052E3E057C00C89D63 /* Basic UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				010F280B2E3E130400C89D63 /* ListsInSwiftUIApp.swift */,
+				010F28062E3E05B700C89D63 /* FruitListView.swift */,
+				010F28032E3D70D000C89D63 /* ProfileViewUsingStacks.swift */,
+			);
+			path = "Basic UI Components";
+			sourceTree = "<group>";
+		};
+		010F28082E3E05DC00C89D63 /* StateBinding */ = {
+			isa = PBXGroup;
+			children = (
+				010F28092E3E05E500C89D63 /* StateBindingView.swift */,
+			);
+			path = StateBinding;
+			sourceTree = "<group>";
+		};
 		01D4F5712E3A82F500D26941 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +187,10 @@
 		ED24F617265C242D00DD76F9 /* SwiftUI-MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				ED24F618265C242D00DD76F9 /* SwiftUI_MVVMApp.swift */,
+				010F27F22E3D468A00C89D63 /* App */,
+				010F27F12E3D467700C89D63 /* State Management */,
+				010F28052E3E057C00C89D63 /* Basic UI Components */,
+				010F27FD2E3D701600C89D63 /* Navigation */,
 				ED24F639265C283F00DD76F9 /* Views */,
 				01D4F5712E3A82F500D26941 /* ViewModel */,
 				010F27EF2E3D313500C89D63 /* Miscellaneous */,
@@ -216,10 +310,20 @@
 			files = (
 				ED24F62E265C24DF00DD76F9 /* APIError.swift in Sources */,
 				ED24F630265C257900DD76F9 /* AlertItem.swift in Sources */,
+				010F28002E3D702C00C89D63 /* DemoViewForNavigation.swift in Sources */,
+				010F27FA2E3D601D00C89D63 /* RandomNumberView.swift in Sources */,
+				010F280A2E3E05E500C89D63 /* StateBindingView.swift in Sources */,
+				010F27F52E3D470E00C89D63 /* ArticleListView.swift in Sources */,
 				ED24F62C265C24B500DD76F9 /* NetworkManager.swift in Sources */,
+				010F28072E3E05B700C89D63 /* FruitListView.swift in Sources */,
 				ED4A384B265EA05900533512 /* AppetizerListViewModel.swift in Sources */,
+				010F27F72E3D4A8700C89D63 /* EnvironmentObjectApp.swift in Sources */,
 				ED24F62A265C248500DD76F9 /* Appetizer.swift in Sources */,
+				010F28022E3D708E00C89D63 /* DemoViewForNavigationApp.swift in Sources */,
+				010F280C2E3E130400C89D63 /* ListsInSwiftUIApp.swift in Sources */,
+				010F28042E3D70D000C89D63 /* ProfileViewUsingStacks.swift in Sources */,
 				ED24F619265C242D00DD76F9 /* SwiftUI_MVVMApp.swift in Sources */,
+				010F27FC2E3D609400C89D63 /* StateObjectVsObservedObjectApp.swift in Sources */,
 				ED24F634265C261800DD76F9 /* LoadingView.swift in Sources */,
 				ED24F636265C26C700DD76F9 /* AppetizerCell.swift in Sources */,
 				ED24F628265C245F00DD76F9 /* AppetizerListView.swift in Sources */,
